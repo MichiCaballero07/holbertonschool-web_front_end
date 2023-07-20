@@ -5,10 +5,15 @@ html {
 
 body {
     color: #161616;
+    color: var(--text-color);
+    font-family: var(--font-family-base);
+    font-size: var(--font-size-medium);
+    font-weight: var(--font-weight-regular);
 }
 
 a {
     color: #161616;
+    color: var(--text-color);
 }
 
 .visually-hidden {
@@ -17,10 +22,12 @@ a {
 
 .card-category {
     color: #d73953;
+    color: var(--color-primary);
 }
 
 .section-tagline {
     color: #d73953;
+    color: var(--color-primary);
 }
 
 :root {
@@ -44,21 +51,6 @@ a {
     --font-weight-bold: 700;
 
 }
-
-.section-tagline, .card-category {
-    color: var(--color-primary);
-  }
-
-  body {
-    color: var(--text-color);
-    font-family: var(--font-family-base);
-    font-size: var(--font-size-medium);
-    font-weight: var(--font-weight-regular);
-  }
-  
-  a {
-    color: var(--text-color);
-  }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-family-title);
