@@ -28,10 +28,10 @@ a {
 }
 
 .section-tagline {
-    color: #d73953;
     color: var(--color-primary);
+    font-family: var(--font-family-title);
     text-transform: var(--section-tagline-transform);
-    font-weight: bold;
+    font-weight: var(--font-weight-bold);
 }
 
 .section-header {
