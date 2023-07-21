@@ -160,11 +160,6 @@
     padding: 0.5rem;
   }
 
-  [data-section-theme="dark"]{
-    --text-color: var(--color-white);
-    --section-tittle-color: var(--color-white);
-    background: var(--color-black);
-  }
 :root {
     --color-primary: #D73953;
     --color-black: #090909;
