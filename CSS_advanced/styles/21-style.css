@@ -342,7 +342,7 @@ ul.row {
 
 [class^="col-"] {
     float: left;
-    padding: calc(var(--font-size-small) / 2);
+    padding: 0.5rem;
 }
 
 :root {
