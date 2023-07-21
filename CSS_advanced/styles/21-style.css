@@ -158,7 +158,7 @@
   [class^="col-"] {
     float: left;
     padding: 0.5rem;
-
+  }
 :root {
     --color-primary: #D73953;
     --color-black: #090909;
